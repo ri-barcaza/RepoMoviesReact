@@ -7,6 +7,7 @@ export default function RenderMovie(props) {
   const {
     movie: { id, title, poster_path },
   } = props;
+
   const posterPath = `https://image.tmdb.org/t/p/original${poster_path}`;
 
   return (

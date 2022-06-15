@@ -5,6 +5,7 @@ import { API_URL, API_KEY } from "../utils/constants";
 import SliderMovies from "../components/SliderMovies";
 import ListMovies from "../components/ListMovies";
 import Footer from "../components/Footer";
+import "../assets/css/personalized.scss";
 
 export default function Home() {
   const newMovies = useFetch(
@@ -23,10 +24,10 @@ export default function Home() {
     <div>
       <SliderMovies movies={newMovies} />
       <Row>
-        <Col span={12}>
+        <Col className="col-12" span={12}>
           <ListMovies title="Películas Populares" movies={popularMovies} />
         </Col>
-        <Col span={12}>
+        <Col className="col-12" span={12}>
           <ListMovies title="Top Películas" movies={topRatedMovies} />
         </Col>
       </Row>
