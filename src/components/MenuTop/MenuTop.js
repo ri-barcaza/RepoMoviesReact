@@ -22,7 +22,7 @@ export default function MenuTop() {
         </Menu.Item>
 
         <Menu.Item key="2">
-          <Link to="/new-movies">Últimos lanzamientos</Link>
+          <Link to="/new-movies">Últimos Lanzamientos</Link>
         </Menu.Item>
 
         <Menu.Item key="3">

@@ -1,0 +1,14 @@
+.movie-catalog {
+    display: flex !important;
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .ant-card-cover {
+        img {
+            height: 350px;
+        }
+    }
+    .ant-card-meta-title {
+        text-align: center !important;
+    }
+}
