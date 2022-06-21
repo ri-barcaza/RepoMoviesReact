@@ -1,5 +1,6 @@
 .movie {
     height: calc(100vh - 64px);
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,7 +56,6 @@
             }
         }
         &-trailer {
-            text-align: center;
             button {
                 font-weight: bold;
                 margin-bottom: 20px;
