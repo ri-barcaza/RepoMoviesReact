@@ -1,5 +1,6 @@
 import React from "react";
+import SearchMovie from "../components/SearchMovie";
 
 export default function Search() {
-  return <div>Search</div>;
+  return <SearchMovie />;
 }
